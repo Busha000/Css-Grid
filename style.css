@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+div:nth-child(1){
+    background: purple;
+    height: 100vh;
+}
+div:nth-child(2){
+    background: yellow;
+    height: 100vh;
+}
+div:nth-child(3){
+    background: green;
+    height: 100vh;
+}
+div:nth-child(4){
+    background: black;
+    height: 100vh;
+}
